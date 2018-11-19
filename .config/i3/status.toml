@@ -1,0 +1,68 @@
+theme = "solarized-dark"
+icons = "awesome"
+
+[[block]]
+block = "net"
+device = "wlp3s0"
+ssid = true
+bitrate = false
+speed_up = false
+speed_down = false
+ip = true
+interval = 5
+
+[[block]]
+block = "music"
+player = "google-play-music-desktop-player"
+buttons = ["play", "next"]
+
+[[block]]
+block = "music"
+player = "mps-youtube"
+buttons = ["play", "next"]
+
+[[block]]
+block = "disk_space"
+path = "/"
+alias = "/"
+info_type = "available"
+unit = "GB"
+interval = 20
+warning = 20.0
+alert = 10.0
+
+[[block]]
+block = "memory"
+display_type = "memory"
+format_mem = "{Mup}%"
+format_swap = "{SUp}%"
+
+[[block]]
+block = "cpu"
+interval = 1
+frequency = true
+
+[[block]]
+block = "load"
+interval = 1
+format = "{1m}"
+
+[[block]]
+block = "temperature"
+
+[[block]]
+block = "battery"
+device = "BAT1"
+interval = 10
+format = "{percentage}% {time}"
+
+[[block]]
+block = "backlight"
+
+[[block]]
+block = "sound"
+
+[[block]]
+block = "time"
+interval = 60
+format = "%a %d/%m %R"
