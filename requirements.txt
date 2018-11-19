@@ -1,0 +1,13 @@
+autopep8
+flake8
+holidays
+i3ipc
+jedi
+mccabe
+powerline-status
+pylint
+selenium
+six
+subprocess32
+-e git+https://github.com/perses76/pylint-pycharm.git@e2381926f203f8d239353054b25d8ff628cf0af5#egg=pylint_pycharm
+
